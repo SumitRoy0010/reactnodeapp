@@ -1,0 +1,34 @@
+.rtx {
+  display: flex;
+  margin-top: 10px;
+}
+
+.toy {
+  color: lightcoral;
+  text-decoration: none;
+  margin-left: 100px;
+}
+
+.ctr a {
+  color: black;
+  margin-left: 600px;
+  font-size: 22px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.ctr a:hover {
+  color: lightskyblue;
+  text-decoration: underline;
+}
+
+.vrt a {
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.vrt a:hover {
+  color: lightskyblue;
+  text-decoration: underline;
+}

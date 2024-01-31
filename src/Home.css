@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.tyi {
+  display: flex;
+}
+
+.eft {
+  margin-top: 110px;
+  margin-left: 80px;
+}
+
+.fgt {
+  color: lightcoral;
+}
+
+.bfg {
+  color: rgb(79, 133, 170);
+  font-size: 18px;
+}
+
+.qaw {
+  color: rgb(54, 161, 227);
+  border-radius: 10em;
+  border-color: rgb(54, 161, 227);
+  box-shadow: none;
+  background-color: white;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .qaw {
+    font-size: 14px;
+  }
+}
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0); /* Start and end position, no movement */
+  }
+  50% {
+    transform: translateY(-20px); /* Middle position, move up by 20 pixels */
+  }
+}
+
+.vpp {
+  height: 500px;
+  margin-left: 100px;
+  margin-top: 40px;
+  animation: moveUpDown 2s infinite;
+}
